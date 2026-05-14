@@ -1,26 +1,26 @@
 class Splat < Formula
   desc "Splat command line interface for trading, auth, transfers, and automation"
   homepage "https://asksplat.com"
-  version "1.0.76"
+  version "1.0.77"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.76/splat_1.0.76_darwin_arm64.tar.gz"
-      sha256 "afeda77cf7772658e2a2570245af31287bf38eee84160638184982e5a619773e"
+      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.77/splat_1.0.77_darwin_arm64.tar.gz"
+      sha256 "ae07ed9dc145b3cc91aafbdb797521de14769837e6acc37172b59f98fd98f83a"
     else
-      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.76/splat_1.0.76_darwin_x64.tar.gz"
-      sha256 "e58fdbdcbe7c0bd0881cc7c8ca8a7661eb14357faefeae013eea35b4ffdad5ac"
+      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.77/splat_1.0.77_darwin_x64.tar.gz"
+      sha256 "caa3a29da2771b6d2efa0fe302350f3974b34c4c9c1833f0e36f5348bea85c22"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.76/splat_1.0.76_linux_arm64.tar.gz"
-      sha256 "0a29ec4acab83bd1e48f6b66b5e0e43f5851c3f4efaac44f78e6f008e9d588af"
+      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.77/splat_1.0.77_linux_arm64.tar.gz"
+      sha256 "bb4888d0e33a75588de98b4afbd063b33738794d7fd31de1e7ab29c4b0b9c3d0"
     else
-      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.76/splat_1.0.76_linux_x64_baseline.tar.gz"
-      sha256 "8773aba93c727c9bf3fd532714187c3a3e3b842784cffdef23deed508c61857b"
+      url "https://github.com/protastudios/splat-cli-releases/releases/download/v1.0.77/splat_1.0.77_linux_x64_baseline.tar.gz"
+      sha256 "9197c25e0d6847064edf582d2c16f791674551b17dcb6a2c45c70183395ee789"
     end
   end
 
